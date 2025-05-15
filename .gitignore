@@ -1,0 +1,70 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Virtual env directories
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Docker system files
+*.log
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit temporary
+.streamlit/
+
+# Compiled binary
+*.exe
+*.out
+*.app
+
+# Database and persistent volumes
+/data/crypto.duckdb
+/data/models/
+data/crypto.duckdb
+data/models/
+
+# Tmux socket/session files
+.tmux.conf*
+
+# Cron log files
+/var/log/*.log
+
+# Ignore only temp or extra CSV files (not historical trade CSV)
+# Comment this if you decide to exclude even the historical ones
+# !/data/historical/*.csv
+
+# Anything else in data/
+!/data/historical/
+!/data/historical/*.csv
+/data/*
+
+# Python dependency lock files (if not needed)
+Pipfile.lock
+poetry.lock
+
+# OS swap files
+*.swp
+*.swo
+
+# Env config files
+.env.local
+.env.production
+.env.staging
+
+# Backup files
+*~
