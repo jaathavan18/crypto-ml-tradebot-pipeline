@@ -33,10 +33,11 @@ Thumbs.db
 *.app
 
 # Database and persistent volumes
-/data/crypto.duckdb
-/data/models/
-data/crypto.duckdb
-data/models/
+# /data/crypto.duckdb
+# /data/models/
+# data/crypto.duckdb
+# data/models/
+*.pkl
 
 # Tmux socket/session files
 .tmux.conf*
@@ -49,9 +50,9 @@ data/models/
 # !/data/historical/*.csv
 
 # Anything else in data/
-!/data/historical/
-!/data/historical/*.csv
-/data/*
+# !/data/historical/
+# !/data/historical/*.csv
+# /data/*
 
 # Python dependency lock files (if not needed)
 Pipfile.lock
