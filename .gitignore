@@ -37,7 +37,7 @@ Thumbs.db
 # /data/models/
 # data/crypto.duckdb
 # data/models/
-*.pkl
+# *.pkl
 
 # Tmux socket/session files
 .tmux.conf*
